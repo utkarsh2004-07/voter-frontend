@@ -4,7 +4,7 @@ import { jsPDF } from 'jspdf';
 
 const UserSearch = () => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [bootNoFilter] = useState('258 Jijus Convent of Mery High School,, Room No.2, Vadavli');
+  const [bootNoFilter] = useState('259 Z. P. School,, Room No.1, Naigaon');
   const [userData, setUserData] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
